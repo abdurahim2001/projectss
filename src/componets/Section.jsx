@@ -18,7 +18,7 @@ const Section = () => {
 
             <div className={aa.body_menu_1}>
                 <div className={aa.menu}>
-                    <div className={aa.hexagon}> <Link to='/texnik'>Маточное Поголовье</Link> </div>
+                    <div className={aa.hexagon}> <Link to='/texnik'><h3>Маточное Поголовье</h3></Link> </div>
                     <div className={aa.hexagon}><Link to='/div'>Быки (Семя)</Link></div>
                     <div className={aa.hexagon}>  <Link to='/machen'>Быки (Собственные)</Link></div>
                     {/* <div > <Link className={aa.border_1} to='/texnik'><b>Маточное Поголовье</b></Link> </div>
