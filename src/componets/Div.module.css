@@ -1,0 +1,214 @@
+.me_ab{
+    background-image: url('../img/1616710948_45-p-belii-abstraktnii-fon-48.jpg');
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+}
+.class_link{
+    position: relative;
+    left: 13rem;
+    top: 2rem;
+}
+.class_link svg{
+    width: 100px;
+    height: 3vh;
+    background: #613ea1;
+    color: aliceblue;
+    border-radius: 15px;
+
+}
+.class_b:hover svg{
+    background: #985fe4;
+    color: aliceblue;
+}
+.input_text{
+    display: flex;
+    gap: 3rem;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 1900px;
+    padding-bottom: 3rem;
+    padding-top: 2rem;
+}
+.text_h1{
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+.menu_text label{
+    width: 30%;
+    
+}
+
+.row_a{
+    padding: 1.5px;
+}
+
+.menu_text {
+   width: 80%;
+}
+
+
+
+.input_1{
+    display: flex;
+}
+.label_1{
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+
+/* 320-380 */
+@media (min-width: 320px) and (max-width: 379px ){
+    .menu_text label{
+      width: 100%;
+    }
+    .input_text{
+        display:flex;
+        justify-content: center;
+        gap: 0;
+        flex-direction: column;
+        width: 500px;
+        margin: 0 auto;
+    }
+
+    .text_h1{
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        padding-top: 2rem;
+        
+        padding-bottom: 2rem;
+    }
+    .menu_text {
+        width:80%;
+     }
+
+}
+/* 380-424 */
+@media (min-width: 380px) and (max-width: 424px ){
+    .menu_text label{
+      width: 100%;
+    }
+    .input_text{
+        display:flex;
+        justify-content: center;
+        gap: 0;
+        flex-direction: column;
+        width: 400px;
+        margin: 0 auto;
+        
+    }
+
+    .text_h1{
+        text-align: center;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+    .menu_text {
+        width: 75%;
+     }
+
+
+}
+
+/* 375-778 */
+
+@media (min-width: 425px) and (max-width: 525px ){
+    .menu_text label{
+      width: 100%;
+    }
+    .input_text{
+        display:flex;
+        justify-content: center;
+        gap: 0;
+        flex-direction: column;
+        width: 420px;
+       
+        margin: 0 auto;
+    }
+
+    .text_h1{
+        text-align: center;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+    .menu_text {
+        width: 75%;
+     }
+
+
+}
+
+@media (min-width: 526px) and (max-width: 778px ){
+    .menu_text label{
+      width: 100%;
+    }
+    .input_text{
+        display:flex;
+        justify-content: center;
+        gap: 0;
+        flex-direction: column;
+        width: 500px;
+        margin: 0 auto;
+    }
+
+    .text_h1{
+        text-align: center;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+
+
+}
+
+
+@media (min-width: 779px) and (max-width: 1023px ){
+    .menu_text label{
+        width: 100%;
+       
+    }
+    .input_text{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        gap: 0;
+        flex-direction: column;
+        
+        margin: 0 auto;
+        width: 550px;
+    }
+    .menu_text {
+        width: 100%;
+     }
+ 
+
+
+}
+@media (min-width: 1024px) and (max-width: 1440px ){
+    
+    .input_text{
+        display:flex;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 2rem;
+    
+        
+        margin: 0 auto;
+        width:800px;
+    }
+    .menu_text {
+        width: 50%;
+     }
+     .menu_text label{
+        width: 100%;
+    
+    }
+
+
+
+}
+
+
